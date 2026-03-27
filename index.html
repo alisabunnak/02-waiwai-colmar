@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Colmar Academy - Version 2</title>
+    <title>Colmar Academy - Version 4</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="m-0 font-sans text-gray-800">
@@ -65,6 +65,143 @@
               Start here
             </a>
           </div>
+        </div>
+      </section>
+
+      <!-- Information -->
+      <section class="border-b border-gray-200">
+        <div class="mx-auto flex max-w-screen-xl flex-col md:flex-row">
+          <article class="hidden border-r border-gray-200 md:block md:w-3/5 md:p-8">
+            <img
+              src="./assets/images/information-main.jpg"
+              alt="A student reading outside"
+              class="mb-8 w-full"
+            />
+            <h2 class="mb-6 text-3xl font-bold">It doesn’t hurt to keep practicing</h2>
+            <p class="mb-6 text-gray-600">
+              “Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
+              commodo lectus, nec consequat neque. Sed non accumsan urna.
+              Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur
+              dolor consequat, tristique ligula.”
+            </p>
+            <span class="text-sm text-gray-700">Emanuel, Sr Strategist at Hiring.com</span>
+          </article>
+
+          <div class="md:w-2/5">
+            <article class="flex flex-col gap-4 p-4 md:flex-row md:items-center md:border-b md:border-gray-200 md:p-4">
+              <picture class="md:w-[35%]">
+                <source media="(max-width: 767px)" srcset="./assets/images/information-orientation-mobile.jpg" />
+                <img src="./assets/images/information-orientation.jpg" alt="Students walking during orientation" class="w-full" />
+              </picture>
+              <div class="md:w-[65%]">
+                <h3 class="mb-2 text-xl font-bold">Orientation date</h3>
+                <p class="mb-2 text-gray-600">Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
+                <a href="#" class="text-blue-600">Read more</a>
+              </div>
+            </article>
+
+            <article class="flex flex-col gap-4 p-4 md:flex-row md:items-center md:border-b md:border-gray-200 md:p-4">
+              <picture class="md:w-[35%]">
+                <source media="(max-width: 767px)" srcset="./assets/images/information-campus-mobile.jpg" />
+                <img src="./assets/images/information-campus.jpg" alt="Interior of the campus" class="w-full" />
+              </picture>
+              <div class="md:w-[65%]">
+                <h3 class="mb-2 text-xl font-bold">Our campus</h3>
+                <p class="mb-2 text-gray-600">Find which campus is close by you</p>
+                <a href="#" class="text-blue-600">Read more</a>
+              </div>
+            </article>
+
+            <article class="flex flex-col gap-4 bg-gray-100 p-4 md:flex-row md:items-center md:p-4">
+              <picture class="md:w-[35%]">
+                <source media="(max-width: 767px)" srcset="./assets/images/information-guest-lecture-mobile.jpg" />
+                <img src="./assets/images/information-guest-lecture.jpg" alt="Portrait of a special guest lecturer" class="w-full" />
+              </picture>
+              <div class="md:w-[65%]">
+                <h3 class="mb-2 text-xl font-bold">Special guest lecture</h3>
+                <p class="mb-2 text-gray-600">
+                  Join a keynote with Oliver Sack about music in medical treatment
+                </p>
+                <a href="#" class="text-blue-600">Read more</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Courses -->
+      <section class="bg-gray-200 px-4 py-8 md:px-0 md:py-8">
+        <div class="mx-auto max-w-screen-xl">
+          <h2 class="mb-8 text-center text-3xl font-bold md:mb-8">Start learning</h2>
+
+          <!-- Desktop grid -->
+          <div class="hidden grid-cols-3 gap-8 px-16 md:grid">
+            <article class="bg-white">
+              <img src="./assets/images/course-software.jpg" alt="Software engineering course" class="w-full" />
+              <div class="p-4">
+                <h3 class="mb-2 text-xl font-bold">Software engineering</h3>
+                <span class="mb-2 block text-sm uppercase text-gray-500">Courses</span>
+                <p class="text-gray-600">Web Development, Mobile Development, iOT, APIs</p>
+              </div>
+            </article>
+
+            <article class="bg-white">
+              <img src="./assets/images/course-computer-art.jpg" alt="Computer art course" class="w-full" />
+              <div class="p-4">
+                <h3 class="mb-2 text-xl font-bold">Computer art</h3>
+                <span class="mb-2 block text-sm uppercase text-gray-500">Courses</span>
+                <p class="text-gray-600">
+                  Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation
+                </p>
+              </div>
+            </article>
+
+            <article class="bg-white">
+              <img src="./assets/images/course-design.jpg" alt="Design course" class="w-full" />
+              <div class="p-4">
+                <h3 class="mb-2 text-xl font-bold">Design</h3>
+                <span class="mb-2 block text-sm uppercase text-gray-500">Courses</span>
+                <p class="text-gray-600">User Experience Design, User Research, Visual Design</p>
+              </div>
+            </article>
+
+            <article class="bg-white">
+              <img src="./assets/images/course-data.jpg" alt="Data course" class="w-full" />
+              <div class="p-4">
+                <h3 class="mb-2 text-xl font-bold">Data</h3>
+                <span class="mb-2 block text-sm uppercase text-gray-500">Courses</span>
+                <p class="text-gray-600">Data Science, Big Data, SQL, Data Visualization</p>
+              </div>
+            </article>
+
+            <article class="bg-white">
+              <img src="./assets/images/course-business.jpg" alt="Business course" class="w-full" />
+              <div class="p-4">
+                <h3 class="mb-2 text-xl font-bold">Business</h3>
+                <span class="mb-2 block text-sm uppercase text-gray-500">Courses</span>
+                <p class="text-gray-600">Product Development, Business Development, Startup</p>
+              </div>
+            </article>
+
+            <article class="bg-white">
+              <img src="./assets/images/course-marketing.jpg" alt="Marketing course" class="w-full" />
+              <div class="p-4">
+                <h3 class="mb-2 text-xl font-bold">Marketing</h3>
+                <span class="mb-2 block text-sm uppercase text-gray-500">Courses</span>
+                <p class="text-gray-600">Analytics, Content Marketing, Mobile Marketing</p>
+              </div>
+            </article>
+          </div>
+
+          <!-- Mobile list -->
+          <ul class="space-y-2 md:hidden">
+            <li class="bg-gray-300 px-4 py-4 text-xl font-bold">Software engineering</li>
+            <li class="bg-gray-300 px-4 py-4 text-xl font-bold">Computer art</li>
+            <li class="bg-gray-300 px-4 py-4 text-xl font-bold">Design</li>
+            <li class="bg-gray-300 px-4 py-4 text-xl font-bold">Data</li>
+            <li class="bg-gray-300 px-4 py-4 text-xl font-bold">Business</li>
+            <li class="bg-gray-300 px-4 py-4 text-xl font-bold">Marketing</li>
+          </ul>
         </div>
       </section>
     </main>
