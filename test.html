@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>sample</title>
+</head>
+<body>
+  <header class="h-16 flex justify-between items-center py-6 bg-white">
+    <div class="hidden lg:block flex-item bg-slate-500">
+      <img class="h-8" src="" alt="ColmarAcademy">
+    </div>
+    <!-- Desktop Navi -->
+    <nav class="hidden lg:flex gap-4 nav-header bg-slate-700">
+      <a>Item menu 1</a>
+      <a>Item menu 2</a>
+      <a>Item menu 3</a>
+      <a>Item menu 4</a>
+    </nav>
+    <!-- Mobile Navi -->
+    <nav class="lg:hidden w-full">
+      <ul class="flex justify-around items-center h-16">
+        <li class="hover:bg-red-200 p-4"><img src="./images/ic-logo.svg"></li>
+        <li class="hover:bg-green-400 p-4"><img src="./images/ic-on-campus.svg"></li>
+        <li><img src="./images/ic-online.svg"></li>
+        <li><img src="./images/ic-login.svg"></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="banner-main flex flex-col lg:flex-row p-0 lg:py-8 lg:px-6 bg-gray-200">
+    <div class="lg:w-3/5"><img class="w-full" src="./images/banner.jpg" alt="Learn something"></div>
+    <div class="p-6">
+      <h1 class="text-5xl">Learn something new everyday</h1>
+      <p class="mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        <a class="mt-6 block text-center text-white text-2xl font-semibold py-3 px-8 bg-gray-400" href="#buttonTest">Start here</a></p>
+    </div>
+  </section>
+  <section class="blog flex flex-col lg:flex-row">
+    <div class="col-1 hidden lg:block">
+      <img src="" alt="main image">
+      <div class="blog__content">
+        <h3>1</h3>
+        <p>leefjnfglkngflnflg fgll  kfh dlfh dl000<br>
+        <br>
+        Em............</p>
+      </div>
+    </div>
+    <div class="col-2 blog__list">
+      <ul>
+        <li>
+          <img src="" alt="main image">
+          <div class="blog__content">
+            <h3>2</h3>
+            <p>leefjnfglkngflnflg fgll  kfh dlfh dl000<br>
+            <br>
+            Em............</p>
+          </div>
+        </li>
+        <li>
+          <img src="" alt="main image">
+          <div class="blog__content">
+            <h3>3</h3>
+            <p>leefjnfglkngflnflg fgll  kfh dlfh dl000<br>
+            <br>
+            Em............</p>
+          </div>
+        </li>
+        <li>
+          <img src="" alt="main image">
+          <div class="blog__content">
+            <h3>4</h3>
+            <p>leefjnfglkngflnflg fgll  kfh dlfh dl000<br>
+            <br>
+            Em............</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="learning"></section>
+  <section id="thsis" class="thsis"></section>
+  <footer></footer>
+
+</body>
+</html>
